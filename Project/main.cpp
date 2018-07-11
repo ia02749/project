@@ -12,6 +12,10 @@
 #include "Costumer.h"
 #include "Pan.h"
 #include "BottomBun.h"
+#include "ToppBun.h"
+#include "KetchupBottle.h"
+#include "MayoBottle.h"
+#include "Egg.h"
 
 const int SCREEN_WIDTH = 1000;
 const int SCREEN_HEIGHT = 700;
@@ -22,7 +26,7 @@ void close();
 
 SDL_Window* gWindow = NULL;
 SDL_Renderer* gRenderer = NULL;
-LTexture background, Thela, palate, kharedar, pan, lowerbun;
+LTexture background, Thela, palate, kharedar, pan, lowerbun, upperbun, laalchatni, safedchatni, anda;
 
 int main( int argc, char* args[] )
 {
@@ -48,8 +52,12 @@ int main( int argc, char* args[] )
             Table t(&Thela, 490, 750);
             Plate p(&palate, (float)SCREEN_WIDTH/2, 570);
             Costumer c(&kharedar, -10, 300);
-            Pan pn(&pan, 760, 570);
-            BottomBun bb(&lowerbun, (float)SCREEN_WIDTH/2, (float)SCREEN_HEIGHT/2);
+            Pan pn(&pan, 780, 570);
+            BottomBun bb(&lowerbun, 100, 600);
+            ToppBun tb(&upperbun, 100, 520);
+            KetchupBottle kb(&laalchatni, 230, 600);
+            MayoBottle mb(&safedchatni, 300, 600);
+            Egg eg(&anda, 790, 568 );
 
             while( !quit )                          //While application is running
 			{
@@ -77,6 +85,10 @@ int main( int argc, char* args[] )
                 p.Render(frame, gRenderer, false);
                 pn.Render(frame, gRenderer, false);
                 bb.Render(frame, gRenderer, false);
+                tb.Render(frame, gRenderer, false);
+                kb.Render(frame, gRenderer, false);
+                mb.Render(frame, gRenderer, false);
+                eg.Render(frame, gRenderer, false);
 
 				SDL_RenderPresent( gRenderer );     //Update screen
 
@@ -186,6 +198,26 @@ bool loadMedia() //Loads the Media
 		printf( "Failed to load sprite sheet texture!\n" );
 		success = false;
 	}
+    if( !upperbun.LoadFromFile( "topbun.png", gRenderer  ) )
+	{
+		printf( "Failed to load sprite sheet texture!\n" );
+		success = false;
+	}
+    if( !laalchatni.LoadFromFile( "ketchupbottle.png", gRenderer  ) )
+	{
+		printf( "Failed to load sprite sheet texture!\n" );
+		success = false;
+	}
+    if( !safedchatni.LoadFromFile( "mayobottle.png", gRenderer  ) )
+	{
+		printf( "Failed to load sprite sheet texture!\n" );
+		success = false;
+	}
+    if( !anda.LoadFromFile( "friedegg.png", gRenderer  ) )
+	{
+		printf( "Failed to load sprite sheet texture!\n" );
+		success = false;
+	}
 
 	return success;
 }
@@ -198,6 +230,11 @@ void close() //Closes the screen
 	palate.Free();
 	kharedar.Free();
 	pan.Free();
+	lowerbun.Free();
+	upperbun.Free();
+	laalchatni.Free();
+	safedchatni.Free();
+	anda.Free();
 
 	//Destroy window
 	SDL_DestroyRenderer( gRenderer );

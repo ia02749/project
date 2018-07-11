@@ -34,6 +34,8 @@
 		</Compiler>
 		<Unit filename="Background.cpp" />
 		<Unit filename="Background.h" />
+		<Unit filename="BottomBun.cpp" />
+		<Unit filename="BottomBun.h" />
 		<Unit filename="Costumer.cpp" />
 		<Unit filename="Costumer.h" />
 		<Unit filename="Food.cpp" />

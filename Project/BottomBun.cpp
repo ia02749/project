@@ -6,8 +6,8 @@ BottomBun::BottomBun(LTexture* image, float x, float y)
 
     neechaywalabun.x = 0; //The left part of the button
     neechaywalabun.y = 0;
-    neechaywalabun.w = 481;
-    neechaywalabun.h = 128;
+    neechaywalabun.w = 181;
+    neechaywalabun.h = 48;
 
     position.x = x;
     position.y = y;
@@ -26,5 +26,3 @@ void BottomBun::Render(long int& frame, SDL_Renderer* gRenderer, bool debug)
         SDL_RenderDrawRect( gRenderer, &rect );
     }
 }
-
-
