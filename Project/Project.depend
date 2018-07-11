@@ -1,0 +1,92 @@
+# depslib dependency file v1.0
+1531290286 source:d:\onedrive - habib university\cs 224 - oop\project\project\costumer.cpp
+	"Costumer.h"
+
+1531289971 d:\onedrive - habib university\cs 224 - oop\project\project\costumer.h
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Point.h"
+
+1531222307 source:d:\onedrive - habib university\cs 224 - oop\project\project\food.cpp
+	"Food.h"
+
+1531222306 d:\onedrive - habib university\cs 224 - oop\project\project\food.h
+
+1531290251 source:d:\onedrive - habib university\cs 224 - oop\project\project\main.cpp
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+	<stdlib.h>
+	<time.h>
+	"LTexture.h"
+	"Background.h"
+	<string.h>
+	"Table.h"
+	"Plate.h"
+	"Costumer.h"
+	"Pan.h"
+
+1531222101 source:d:\onedrive - habib university\cs 224 - oop\project\project\stack.cpp
+	"Stack.h"
+
+1531222101 d:\onedrive - habib university\cs 224 - oop\project\project\stack.h
+
+1531222114 source:d:\onedrive - habib university\cs 224 - oop\project\project\unit.cpp
+	"Unit.h"
+
+1531222114 d:\onedrive - habib university\cs 224 - oop\project\project\unit.h
+
+1531223357 source:d:\onedrive - habib university\cs 224 - oop\project\project\game.cpp
+	"Game.h"
+
+1531223357 d:\onedrive - habib university\cs 224 - oop\project\project\game.h
+
+1531269783 source:d:\onedrive - habib university\cs 224 - oop\project\project\ltexture.cpp
+	"LTexture.h"
+
+1531225751 d:\onedrive - habib university\cs 224 - oop\project\project\ltexture.h
+	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<iostream>
+
+1531226872 d:\onedrive - habib university\cs 224 - oop\project\project\background.h
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Point.h"
+
+1531225983 d:\onedrive - habib university\cs 224 - oop\project\project\point.h
+
+1531228248 source:d:\onedrive - habib university\cs 224 - oop\project\project\background.cpp
+	"Background.h"
+
+1531228759 d:\onedrive - habib university\cs 224 - oop\project\project\table.h
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Point.h"
+
+1531291646 source:d:\onedrive - habib university\cs 224 - oop\project\project\table.cpp
+	"Table.h"
+
+1531270668 source:d:\onedrive - habib university\cs 224 - oop\project\project\plate.cpp
+	"Plate.h"
+
+1531248039 d:\onedrive - habib university\cs 224 - oop\project\project\plate.h
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Point.h"
+
+1531270383 source:d:\onedrive - habib university\cs 224 - oop\project\project\pan.cpp
+	"Pan.h"
+
+1531268813 d:\onedrive - habib university\cs 224 - oop\project\project\pan.h
+	<SDL.h>
+	<SDL_image.h>
+	"LTexture.h"
+	"Point.h"
+
