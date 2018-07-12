@@ -4,20 +4,21 @@
 #include <SDL_image.h>
 #include "LTexture.h"
 #include "Point.h"
+#include "Food.h"
 
-class ToppBun
+class ToppBun : public Food
 {
     public:
         ToppBun(LTexture*, float, float);
-        void Render(long int& frame, SDL_Renderer* gRenderer, bool debug);
-        Point position;
-        int width;
-        int height;
+        //void Render(long int& frame, SDL_Renderer* gRenderer, bool debug);
+//        Point position;
+//        int width;
+//        int height;
     protected:
 
     private:
-        SDL_Rect uparwalabun;
-        LTexture* spriteSheetTexture;
+        //SDL_Rect uparwalabun;
+        //LTexture* spriteSheetTexture;
 
 };
 

@@ -38,12 +38,18 @@
 		<Unit filename="BottomBun.h" />
 		<Unit filename="Costumer.cpp" />
 		<Unit filename="Costumer.h" />
+		<Unit filename="Egg.cpp" />
+		<Unit filename="Egg.h" />
 		<Unit filename="Food.cpp" />
 		<Unit filename="Food.h" />
 		<Unit filename="Game.cpp" />
 		<Unit filename="Game.h" />
+		<Unit filename="KetchupBottle.cpp" />
+		<Unit filename="KetchupBottle.h" />
 		<Unit filename="LTexture.cpp" />
 		<Unit filename="LTexture.h" />
+		<Unit filename="MayoBottle.cpp" />
+		<Unit filename="MayoBottle.h" />
 		<Unit filename="Node.h" />
 		<Unit filename="Pan.cpp" />
 		<Unit filename="Pan.h" />
@@ -54,6 +60,8 @@
 		<Unit filename="Stack.h" />
 		<Unit filename="Table.cpp" />
 		<Unit filename="Table.h" />
+		<Unit filename="ToppBun.cpp" />
+		<Unit filename="ToppBun.h" />
 		<Unit filename="Unit.cpp" />
 		<Unit filename="Unit.h" />
 		<Unit filename="main.cpp" />
